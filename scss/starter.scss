@@ -32,3 +32,19 @@
 		}
 	}
 }	
+
+#footer{
+	&.img-bg{
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 20vh;
+		background-position: bottom right;
+	}
+	a{
+		@extend .text-body;
+		&:hover{
+			color: rgb(255,255,255) !important;
+			transition: all 0.5s ease;
+		}
+	}
+}

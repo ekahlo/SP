@@ -21,6 +21,7 @@ $sp-gray:			#808996 !default;
 $sp-white-light:	#f4f6f9 !default;
 $sp-gray-dark:		#4f4f4f !default;
 $sp-blue:			#14286c !default;
+$sp-blue-white:		#8bebff !default;
 $sp-blue-light:		#33ccff !default;
 $sp-blue-dark:		#08112e !default;
 $sp-red:			#db4990 !default;
@@ -31,6 +32,7 @@ $secondary:			$sp-blue;
 $light:				$sp-white-light;
 $dark:				$sp-gray-dark;
 $red:				$sp-red;
+$info:				$sp-blue-white;
 $body-color:		$sp-gray;
 $line-height-base:  1.8;
 

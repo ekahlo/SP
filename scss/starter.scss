@@ -24,8 +24,12 @@
 		background-size: 100%;
 		min-height: 80vh;
 		background-position: center top;
-		@extend .position-relative;
+		// @include media-breakpoint-down(lg){
+		// 	min-height: 100vh;
+		// 	background-size: cover;
+		// }
 	}
+
 	a{
 		@extend .text-secondary;
 		&:hover{
@@ -33,8 +37,7 @@
 			transition: all 0.5s ease;
 		}
 	}
-}	
-
+}
 #footer{
 	&.img-bg{
 		background-repeat: no-repeat;
